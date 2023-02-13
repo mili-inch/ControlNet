@@ -1,6 +1,8 @@
 # ControlNet with Human Pose Blender Adaptation
 This repository is a fork of ControlNet with Human Pose (https://github.com/lllyasviel/ControlNet) made to work with 2d keypoints output from B2ControlNet, a Blender add-on.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mili-inch/ControlNet/blob/main/controlnet_colab_blender.ipynb)
+
 ## Requirement
 
 Windows 10, Python3.10
