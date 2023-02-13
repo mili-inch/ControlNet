@@ -1,4 +1,6 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mili-inch/ControlNet/blob/main/controlnet_colab_blender.ipynb)
+<p align="center">
+  <a size="90" href="https://github.com/mili-inch/ControlNet#controlnet-blender%E5%87%BA%E5%8A%9Bpose%E5%AF%BE%E5%BF%9C%E7%89%88">[日本語説明]</a>
+</p>
 
 # ControlNet with Human Pose Blender Adaptation
 This repository is a fork of ControlNet with Human Pose (https://github.com/lllyasviel/ControlNet) made to work with 2d keypoints output from B2ControlNet, a Blender add-on.
@@ -13,6 +15,10 @@ Windows 10, Python3.10
 
 It works with 8GB of VRAM like RTX 2080, but it's slow.
 
+If it doesn't work in your local environment, you can try in Colab.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mili-inch/ControlNet/blob/main/controlnet_colab_blender.ipynb)
+
 ## Installation
 
 First, download control_sd15_openpose.pth from below link.
@@ -26,7 +32,7 @@ Then create an environment with the following command
     pip install -r requirements.txt
     python gradio_pose2image_blender.py
 
-# ControlNet Blender出力Pose対応版
+# ControlNet Blender出力ポーズ対応版
 このリポジトリは、B2ControlNetから出力された2dkeypointsから画像を生成するための、ControlNet with Human Pose (https://github.com/lllyasviel/ControlNet) のforkです。
 
 B2ControlNetはカメラから見たボーンの配置をCOCOの2d keypoint配列準拠で書き出すBlenderアドオンです
@@ -37,14 +43,20 @@ B2ControlNet:
 
 Windows10, Python3.10, Pytorch1.13.1
 
+VRAM8GBは必要です
+
+環境が無い場合はColabで試すこともできます
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mili-inch/ControlNet/blob/main/controlnet_colab_blender.ipynb)
+
 ## インストール
 
 まず以下のリンクからcontrol_sd15_openpose.pthをダウンロードしてください
 
 https://huggingface.co/lllyasviel/ControlNet/resolve/main/models/control_sd15_openpose.pth
 
-Python 3.10, Git, CUDA Toolkit, Pytorchがインストールし、control_sd15_openpose.pth を "ControlNet/models" 直下に入れてください
-virtualenvを作成して、以下のコマンドで起動してください
+Python 3.10, Git, CUDA Toolkit, Pytorchをインストールし、control_sd15_openpose.pth を "ControlNet/models" 直下に入れてください
+以下のコマンドインストール・起動してください
 
     pip install -r requirements.txt
     python gradio_pose2image_blender.py
