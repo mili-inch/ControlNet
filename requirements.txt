@@ -1,0 +1,13 @@
+opencv-python
+scipy
+scikit-image
+gradio==3.16.2
+timm==0.6.12
+addict==2.4.0
+yapf==0.32.0
+pytorch-lightning==1.9.1
+einops==0.3.0
+open_clip_torch==2.0.2
+omegaconf==2.1.1
+transformers==4.19.2
+xformers==0.0.16rc425

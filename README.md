@@ -1,3 +1,13 @@
+# ControlNet with Human Pose Blender Adaptation
+This repository is a fork of ControlNet with Human Pose (https://github.com/lllyasviel/ControlNet) made to work with 2d keypoints output from B2ControlNet, a Blender add-on.
+
+## Installation
+First, download control_sd15_openpose.pth from https://huggingface.co/lllyasviel/ControlNet/resolve/main/models/control_sd15_openpose.pth
+Please make sure you have installed Python 3.10, Git, CUDA Toolkit, torch, and control_sd15_openpose.pth is in "ControlNet/models".
+Then create an environment with the following command
+    pip install -r requirements.txt
+    python gradio_pose2image_blender.py
+
 # ControlNet
 
 Official implementation of [Adding Conditional Control to Text-to-Image Diffusion Models](https://github.com/lllyasviel/ControlNet/raw/main/github_page/control.pdf).
