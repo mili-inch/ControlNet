@@ -1,7 +1,3 @@
-<p align="center">
-  <a size="90" href="https://github.com/mili-inch/ControlNet#controlnet-blender%E5%87%BA%E5%8A%9Bpose%E5%AF%BE%E5%BF%9C%E7%89%88">[日本語説明]</a>
-</p>
-
 # ControlNet with Human Pose Blender Adaptation
 This repository is a fork of ControlNet with Human Pose (https://github.com/lllyasviel/ControlNet) made to work with 2d keypoints output from B2ControlNet, a Blender add-on.
 
