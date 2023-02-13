@@ -3,7 +3,9 @@ This repository is a fork of ControlNet with Human Pose (https://github.com/llly
 
 ## Installation
 First, download control_sd15_openpose.pth from https://huggingface.co/lllyasviel/ControlNet/resolve/main/models/control_sd15_openpose.pth
+
 Please make sure you have installed Python 3.10, Git, CUDA Toolkit, torch, and control_sd15_openpose.pth is in "ControlNet/models".
+
 Then create an environment with the following command
 
     pip install -r requirements.txt
