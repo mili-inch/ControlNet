@@ -1,8 +1,17 @@
 # ControlNet with Human Pose Blender Adaptation
 This repository is a fork of ControlNet with Human Pose (https://github.com/lllyasviel/ControlNet) made to work with 2d keypoints output from B2ControlNet, a Blender add-on.
 
+## Requirement
+
+Windows 10, Python3.10
+
+It works with 8GB of VRAM like RTX 2080, but it's slow.
+
 ## Installation
-First, download control_sd15_openpose.pth from https://huggingface.co/lllyasviel/ControlNet/resolve/main/models/control_sd15_openpose.pth
+
+First, download control_sd15_openpose.pth from below link.
+
+https://huggingface.co/lllyasviel/ControlNet/resolve/main/models/control_sd15_openpose.pth
 
 Please make sure you have installed Python 3.10, Git, CUDA Toolkit, torch, and control_sd15_openpose.pth is in "ControlNet/models".
 
