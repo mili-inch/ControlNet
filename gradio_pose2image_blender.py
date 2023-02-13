@@ -8,17 +8,14 @@ import time
 import os
 import math
 
-from cldm.hack import disable_verbosity
-disable_verbosity()
-
 from pytorch_lightning import seed_everything
 from cldm.model import create_model, load_state_dict
 from ldm.models.diffusion.ddim import DDIMSampler
 from PIL import Image
 
-
-model = create_model('./models/cldm_v15.yaml').cuda()
-model.load_state_dict(load_state_dict('./models/control_sd15_openpose.pth', location='cuda'))
+model = create_model('./models/cldm_v15.yaml').cpu()
+model.load_state_dict(load_state_dict('./models/control_sd15_openpose.pth', location='cpu'))
+model = model.cuda()
 ddim_sampler = DDIMSampler(model)
 
 def HWC3(x):
