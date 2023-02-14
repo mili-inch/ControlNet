@@ -3,7 +3,11 @@ This repository is a fork of ControlNet with Human Pose (https://github.com/llly
 
 B2ControlNet is a blender add-on for exporting COCO 2d keypoints compliant bone placement as seen from the camera.
 
-B2ControlNet: 
+B2ControlNet:
+
+https://tonimono.gumroad.com/l/ltpaz
+
+https://tonimono.booth.pm/items/4548229
 
 ## Requirement
 
