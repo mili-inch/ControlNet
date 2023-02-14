@@ -60,7 +60,7 @@ VRAM8GBは必要です
 https://huggingface.co/lllyasviel/ControlNet/resolve/main/models/control_sd15_openpose.pth
 
 Python 3.10, Git, CUDA Toolkit, Pytorchをインストールし、control_sd15_openpose.pth を "ControlNet/models" 直下に入れてください
-以下のコマンドインストール・起動してください
+以下のコマンドでインストール・起動してください
 
     pip install -r requirements.txt
     python gradio_pose2image_blender.py
