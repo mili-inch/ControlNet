@@ -39,6 +39,10 @@ B2ControlNetはカメラから見たボーンの配置をCOCOの2d keypoint配�
 
 B2ControlNet: 
 
+https://tonimono.gumroad.com/l/ltpaz
+
+https://tonimono.booth.pm/items/4548229
+
 ## 環境
 
 Windows10, Python3.10, Pytorch1.13.1
